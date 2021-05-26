@@ -15,6 +15,14 @@ Though optional(as the code will work with or without the redis server started),
 
 This would help improve the response time as the service caches responses from the third party api service.
 
+
+## Testing
+  curl command to call the servie when started
+
+  ```bash
+  curl --location --request GET 'localhost:8081/api/v1/movies/getTrailerLink?movieResourceLink=https://content.viaplay.se/pc-se/film/arrival-2016'
+  ```
+
 ## Notes
 To ensure the project is easy to get started with, I have left the ".env" file as part of the project files. 
 The file would naturally be git ignored if this was a production ready app
