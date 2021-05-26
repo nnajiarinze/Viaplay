@@ -1,0 +1,3 @@
+#.env //commented out but would ideally have this file ignored as well
+node_modules/
+.vscode/launch.json
